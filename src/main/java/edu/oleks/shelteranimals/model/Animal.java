@@ -1,5 +1,6 @@
 package edu.oleks.shelteranimals.model;
 
+
 import lombok.*;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -24,7 +25,7 @@ public class Animal {
     private String shelterId;
     private boolean sterilization;
 
-    public Animal( String name, int age, String sex, String description, String location, String type, String photos, boolean isAvailableForAdoption, String shelterId, boolean sterilization) {
+    public Animal(String name, int age, String sex, String description, String location, String type, String photos, boolean isAvailableForAdoption, String shelterId, boolean sterilization) {
 
         this.name = name;
         this.age = age;
@@ -37,7 +38,6 @@ public class Animal {
         this.shelterId = shelterId;
         this.sterilization = sterilization;
     }
-
 
 
     @Override
