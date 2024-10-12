@@ -1,6 +1,5 @@
 package edu.oleks.shelteranimals.service;
 
-<<<<<<< HEAD
 import edu.oleks.shelteranimals.model.Animal;
 import edu.oleks.shelteranimals.repository.AnimalRepository;
 import lombok.RequiredArgsConstructor;
@@ -62,8 +61,4 @@ public class AnimalService {
         }
     }
 
-
-=======
-public class AnimalService {
->>>>>>> b7db71a (Initial commit)
 }

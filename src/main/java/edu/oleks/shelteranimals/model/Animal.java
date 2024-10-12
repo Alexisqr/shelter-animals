@@ -1,6 +1,7 @@
 package edu.oleks.shelteranimals.model;
 
 
+
 import lombok.*;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -52,4 +53,5 @@ public class Animal {
     public int hashCode() {
         return getId().hashCode();
     }
+
 }
