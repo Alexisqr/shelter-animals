@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.stereotype.Repository;
 import org.springframework.data.mongodb.core.mapping.Document;
 import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.fields;
-import org.springframework.data.annotation.Id;
+//import org.springframework.data.annotation.Id;
 import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.*;
 import static com.tngtech.archunit.library.Architectures.layeredArchitecture;
 
