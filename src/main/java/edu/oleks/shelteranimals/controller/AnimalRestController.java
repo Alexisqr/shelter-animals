@@ -1,6 +1,7 @@
 package edu.oleks.shelteranimals.controller;
 
 import edu.oleks.shelteranimals.model.Animal;
+//import edu.oleks.shelteranimals.repository.AnimalRepository;
 import edu.oleks.shelteranimals.service.AnimalService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -12,14 +13,11 @@ import java.util.List;
 @RequiredArgsConstructor
 public class AnimalRestController {
     private final AnimalService animalService;
+    //private final AnimalRepository repository;
 
-    @RequestMapping("/hello")
-    public String hello() {
-        return "Hello )))))))))))))))))";
-    }
 
     @GetMapping("/")
-    public List<Animal> GetAllAnimals() {
+    public List<Animal> getAllAnimals() {
         return animalService.getAnimals();
     }
 

@@ -3,9 +3,10 @@ package edu.oleks.shelteranimals.model;
 
 
 import lombok.*;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.Objects;
+//import java.util.Objects;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -14,6 +15,7 @@ import java.util.Objects;
 @ToString
 @Document
 public class Animal {
+    @Id
     private String id;
     private String name;
     private int age;
