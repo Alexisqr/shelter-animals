@@ -1,7 +1,7 @@
 package edu.oleks.shelteranimals.controller;
 
 import edu.oleks.shelteranimals.model.Animal;
-import edu.oleks.shelteranimals.repository.AnimalRepository;
+//import edu.oleks.shelteranimals.repository.AnimalRepository;
 import edu.oleks.shelteranimals.service.AnimalService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

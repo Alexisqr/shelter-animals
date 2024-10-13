@@ -3,9 +3,7 @@ package edu.oleks.shelteranimals;
 import com.tngtech.archunit.core.domain.JavaClasses;
 import com.tngtech.archunit.core.importer.ClassFileImporter;
 import com.tngtech.archunit.core.importer.ImportOption;
-import lombok.RequiredArgsConstructor;
-import org.apache.tomcat.util.bcel.classfile.JavaClass;
-import org.assertj.core.internal.Classes;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
