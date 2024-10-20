@@ -16,7 +16,13 @@ import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.fields;
 //import org.springframework.data.annotation.Id;
 import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.*;
 import static com.tngtech.archunit.library.Architectures.layeredArchitecture;
-
+/*
+@author   Oleksandra Hrytsiuk
+@project  shelteranimals
+@class  ShelterAnimalsArchitectureTests
+@version  4.0.0
+@since 20.10.2024 - 13:55
+*/
 @SpringBootTest
 class ShelterAnimalsArchitectureTests {
 
