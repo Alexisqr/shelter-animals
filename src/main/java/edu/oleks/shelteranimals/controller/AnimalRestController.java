@@ -7,7 +7,13 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+/*
+@author   Oleksandra Hrytsiuk
+@project  shelteranimals
+@class  AnimalRestController
+@version  4.0.0
+@since 20.10.2024 - 13:55
+*/
 @RestController
 @RequestMapping("api/v1/animals")
 @RequiredArgsConstructor

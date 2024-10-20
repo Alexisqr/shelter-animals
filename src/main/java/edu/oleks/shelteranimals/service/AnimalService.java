@@ -4,7 +4,13 @@ import edu.oleks.shelteranimals.model.Animal;
 import edu.oleks.shelteranimals.repository.AnimalRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-
+/*
+@author   Oleksandra Hrytsiuk
+@project  shelteranimals
+@class  AnimalService
+@version  4.0.0
+@since 20.10.2024 - 13:55
+*/
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,7 +1,13 @@
 package edu.oleks.shelteranimals.model;
 
 
-
+/*
+@author   Oleksandra Hrytsiuk
+@project  shelteranimals
+@class  Animal
+@version  4.0.0
+@since 20.10.2024 - 13:55
+*/
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -12,6 +18,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @AllArgsConstructor
 @Getter
 @Setter
+@Builder
 @ToString
 @Document
 public class Animal {
