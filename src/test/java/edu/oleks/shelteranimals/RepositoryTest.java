@@ -37,7 +37,7 @@ public class RepositoryTest {
         underTest.saveAll(List.of(whiskers, bella, milo));
     }
 
-    @AfterEach
+    //@AfterEach
     void tearDown() {
         List<Animal> animalsToDelete = underTest.findAll().stream()
                 .filter(animal -> animal.getDescription().contains("###test"))
@@ -119,7 +119,7 @@ public class RepositoryTest {
                 .filter(animal -> animal.getId().equals("1"))
                 .findFirst().orElse(null);
         // then
-        //assertNull(animalFromDb.getAge());
+        assertEquals(0, animalFromDb.getAge());
         assertNull(animalFromDb.getSex());
         assertNull(animalFromDb.getLocation());
         assertNull(animalFromDb.getType());
